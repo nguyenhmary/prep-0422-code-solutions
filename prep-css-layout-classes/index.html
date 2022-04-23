@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+
+    }
+    .container {
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+
+
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+
+    }
+    img {
+      width: 100%;
+    }
+    h3 {
+      text-align: center;
+      padding: .5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <h1>Shrek</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="https://images.fathomevents.com/image/upload/w_360,dpr_1.5,f_auto,q_auto/fl_attachment/v1642098638/Events/2021/1490/Shrek_1000x1480_Fathom_Thumbnail.jpg.jpg.jpg">
+        <h3> Shrek</h3>
+        <p>Once upon a time, in a far away swamp, there lived an ogre named Shrek (Mike Myers) whose precious solitude is suddenly
+        shattered by an invasion of annoying fairy tale characters. They were all banished from their kingdom by the evil Lord
+        Farquaad (John Lithgow). Determined to save their home -- not to mention his -- Shrek cuts a deal with Farquaad and sets
+        out to rescue Princess Fiona (Cameron Diaz) to be Farquaad's bride. Rescuing the Princess may be small compared to her
+        deep, dark secret.</p>
+      </div>
+      <div class="column">
+        <img src="https://resizing.flixster.com/sWt9Utthyp8N1tNsCQFJoYvTiS8=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzY0MjE3ZDU3LWFkNzUtNDAxNC04N2I3LWExNWQzNzFlOWEzNC53ZWJw">
+        <h3>Shrek</h3>
+        <p>After returning from their honeymoon and showing home movies to their friends, Shrek and Fiona learn that her parents
+      have heard that she has married her true love and wish to invite him to their kingdom, called Far Far Away. The catch
+      is: Fiona's parents are unaware of the curse that struck their daughter and have assumed she married Prince Charming,
+      not a 700-pound ogre with horrible hygiene and a talking donkey pal.</p>
+      </div>
+      <div class="column">
+        <img src="https://upload.wikimedia.org/wikipedia/en/2/22/Shrek_the_Third_%282007_animated_feature_film%29.jpg">
+        <h3>Shrek The Third</h3>
+        <p>When King Harold suddenly croaks, Shrek (Mike Myers) learns he will have to rule the land of Far, Far Away, unless he
+      can find a suitable heir to the throne. The most-promising candidate is Princess Fiona's (Cameron Diaz) cousin Artie
+      (Justin Timberlake), a teenage slacker in a medieval high-school. Shrek and his trusted companions, Donkey (Eddie
+      Murphy) and Puss in Boots (Antonio Banderas), set out to bring Artie back but find their mission is a bigger challenge
+      than they expected.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
